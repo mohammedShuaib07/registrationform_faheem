@@ -1,0 +1,167 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body{
+    background-image:url('https://thumbs.dreamstime.com/b/abstract-blue-green-polygon-tech-network-connect-technology-background-abstract-blue-green-polygon-tech-network-connect-187743875.jpg');
+  background-size: cover;
+
+
+}
+
+.left{
+    border:3px solid black;
+    float:left;
+    width:50%;
+    height:24rem;
+    background-color: black;
+    color:white;
+   
+}
+.right{
+        border:3px solid white;
+        float:right;
+        width:50%;
+        height:24rem;
+        background-color:white;
+        color:black;
+        text-align:center;
+        
+            
+    }
+    
+    @media only screen and (max-width: 520px){
+        .left{
+            width:100%;
+            float:left;
+            
+        }
+        .right{
+        float:right;
+            width:100%;
+           
+            
+        }
+        body{
+            display: flex;
+         flex-direction: column-reverse;
+        }
+    }
+        
+    body{
+        margin:4rem;
+        font-family:arial,sans-serif;
+    
+    }
+
+.cen{
+   
+    text-align:center;
+
+}
+.button1{
+    padding:8px 3px;
+    color:white;
+    
+    border:1px solid white;
+    background-color: transparent;
+}
+.button2{
+    background-color: transparent;
+
+    border:1px solid white;
+  margin-top:5px;
+    color:white;
+    padding:8px 2px;
+}
+ .li{
+
+float:right;
+padding:2px;
+border:1px solid black;
+margin-left:3px;
+background-color:transparent;
+list-style-type: none;
+font-size:small;
+
+}
+.li:hover{
+    background-color:lightblue;
+
+}
+.li a:hover{
+    color:black;
+}
+.li a{
+    text-decoration: none;
+}
+#h5{
+    padding-top:3rem;
+    padding-right:7.5rem;
+    font-size: 18px;
+}
+#label1{
+    
+    padding-top:2rem;
+    font-size: small;
+    margin-right:6.8rem;
+    
+}
+#label2{
+    margin-right:7rem;
+    font-size: small;
+}
+
+input{
+    
+    padding-right: 1rem;
+    padding-top: 0rem;
+    border:transparent;
+    border-bottom:1px solid black;
+    margin-top:10px;
+   
+}
+.a3{
+    text-decoration: none;
+    border:1px solid black;
+    padding:4px 4rem;
+    color:white;
+    background-color: blue;
+    font-size: 3vh;
+    
+}
+.a3:hover{
+    background-color: lightblue;
+    color:black;
+}
+#label5{
+    text-decoration: none;
+    font-size: 2.5vh;
+    padding-right:2rem;
+
+}
+#label6{
+    font-size: 2.5vh;
+    text-decoration: none;
+
+}
+ul{
+    margin:1.5rem 2.5rem;
+}
+.aaa{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
